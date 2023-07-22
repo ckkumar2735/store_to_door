@@ -74,6 +74,16 @@ line-height: normal;
 /* margin-left:1000px;
 margin-top:-130px; */
 }
+.text_ck_1111{
+    color: #000;
+text-align: center;
+font-family: Poppins;
+font-size: 55px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: capitalize;
+}
 
 .btn1_ck:hover{
     background: #F20606;
@@ -95,9 +105,9 @@ margin-top:-130px; */
     color: #29166F;
    
 }
-.client-review .client-slide{
+/* .client-review .client-slide{
 	padding: 2rem 0rem;
-}
+} */
 .client-review .client-slide .client-image {
     border: 3px solid #DA251C;
     border-radius: 7px;
@@ -169,7 +179,7 @@ margin-top:-130px; */
 }
 
   .review{
-    padding: 5rem 0rem;
+    /* padding: 5rem 0rem; */
     text-align: center;
 }
 .review h2{
@@ -250,7 +260,7 @@ margin-top:-130px; */
 @media only screen and (max-width:767px)  and (min-width: 300px) 
 {
     .slider_img{
-        margin-left:140px;
+        margin-left:160px;
    
     }
 
@@ -264,11 +274,18 @@ margin-top:-130px; */
         font-size:33px;
         text-align:center;
     }
+
+    .text_ck_1111{
+        font-size:20px;
+    }
 }
 
 @media only screen and (max-width:991px)  and (min-width: 768px)  {
     .smile{
           
+    }
+    .text_ck_1111{
+        font-size:20px;
     }
    
     .google{
